@@ -1,0 +1,22 @@
+{
+    "name": "solwin/productzoom",
+    "description": "Advanced Product Zoom Pro extension will help store owner to present every detail of the texture, color and pattern of products with the better visibility.",
+    "type": "magento2-module",
+    "version": "2.1.2",
+    "authors": [
+        {
+            "name": "Solwin",
+            "email": "stdabhoya@yahoo.com",
+            "homepage": "https://www.solwininfotech.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Solwin\\Productzoom\\": ""
+        }
+    }
+}
